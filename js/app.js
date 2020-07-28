@@ -40,7 +40,7 @@ $(function(){
         type: 'POST',
         data: datos
       }).done(function(data){
-        alert("listo")
+        
         var newData = JSON.parse(data)
         self.renderBienes(newData)
       })
